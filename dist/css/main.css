@@ -370,6 +370,13 @@ body#blog-bg:after {
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  #mce-EMAIL {
+    margin-bottom: 15px !important;
+    width: 80% !important;
+  }
+}
+
 /* BLOG PAGE MEDIA QUERIES */
 @media screen and (max-width: 625px) {
   #blog-cta h1 {
@@ -409,6 +416,11 @@ body#blog-bg:after {
   .blog-email-input {
     margin-left: 20px !important;
   }
+
+  #mce-EMAIL {
+    margin-bottom: 15px !important;
+    width: 80% !important;
+  }
 }
 
 @media screen and (max-width: 395px) {
@@ -416,13 +428,12 @@ body#blog-bg:after {
     margin-right: 15px !important;
   }
 
-  .blog-email-input {
-    margin-left: 55px !important;
-    width: 275px;
-    margin-bottom: 10px;
+  #mce-EMAIL {
+    margin-bottom: 15px !important;
+    width: 80% !important;
   }
 
   .blog-cta-button {
-    margin-left: 120px !important;
+    /* margin-left: 120px !important; */
   }
 }
