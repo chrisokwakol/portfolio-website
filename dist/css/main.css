@@ -314,7 +314,8 @@ main {
 
 /* BLOG */
 #blog-bg {
-  background: url(../img/background2.jpg);
+  background: url(../img/z.jpg);
+  background-position: center;
 }
 
 body#blog-bg:after {
@@ -325,7 +326,7 @@ body#blog-bg:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.73);
 }
 
 #blog-cta {
@@ -344,12 +345,14 @@ body#blog-bg:after {
 #blog-cta h1 {
   font-family: Poppins;
   font-size: 50px;
+  text-shadow: #FC0 0px 0 10px;
 }
 
 #blog-cta p {
   font-family: 'Lato', sans-serif;
   font-size: 25px;
   margin-top: -3px;
+  text-shadow: #FC0 0px 0 10px;
 }
 
 #mce-EMAIL {
