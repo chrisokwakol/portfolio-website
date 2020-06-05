@@ -31,3 +31,30 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+// COUNTDOWN TIMER
+// set the date we are counting down to
+const countDownDate = new Date('July 10, 2020 00:00:00').getTime();
+
+// Update the countdown every one second
+const x = setInterval(() => {
+
+  // get today's date
+  const now = new Date().getTime();
+
+  // find the distance between now and the countdown date
+  const distance = countDownDate - now;
+
+  // time calculations for days, hours and minutes
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // display the result in the element with id = countdown-timer
+  document.getElementById('countdown-timer').innerHTML = `${days} days : ${hours} hours : ${minutes} minutes : ${seconds} seconds`
+}, 1000)
+
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
