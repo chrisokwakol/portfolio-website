@@ -476,6 +476,12 @@ body#blog-bg:after {
   #contact-form input[type= "text"], input[type="email"], #contact-form textarea {
     width: 85%;
   }
+
+  #contact-page-bg {
+    background: url('../img/rare2.jpg');
+    background-size: cover;
+    background-position: right;
+  }
 }
 
 @media screen and (max-width: 395px) {
