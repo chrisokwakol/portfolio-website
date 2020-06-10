@@ -8,7 +8,7 @@
   <meta name="description" content="I am a website developer with a passion for creating websites and web apps. So let me create your website for you all the way through to development"> 
   <meta name="keywords" content="website developer, website developer, website developer near me">
   <script async src="https://kit.fontawesome.com/0f132dab57.js" crossorigin="anonymous"></script>
-  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/main.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164906887-1"></script>
@@ -27,7 +27,7 @@
 
 </head>
 
-<body>
+<body id="contact-page-bg">
   <header>
     <div id="google_translate_element"></div>
     <div class="menu-btn">
@@ -63,7 +63,7 @@
         </li>
         <li class="nav-item current">
           <a href="contact.html" class="nav-link">
-            How To Reach Me
+            Contact
           </a>
         </li>
       </ul>
@@ -75,20 +75,25 @@
       Contact
       <span class="text-secondary">Me</span>
     </h1>
-    <h2 class="sm-heading">
-      This is how you can reach me...
-    </h2>
-    <div class="boxes">
-      <div>
-        <span class="text-secondary">Email: </span> chriscoutinho7@gmail.com
-      </div>
-      <div>
-        <span class="text-secondary">Phone: </span> +256 793427341
-      </div>
-      <div>
-        <span class="text-secondary">Address: </span> P.o Box 913, Lyamutundwe, Mpala, Entebbe, Uganda
-      </div>
+
+    <div id="contact-form-flex">
+      <form id="contact-form" name="contact" method="POST" data-netlify="true">
+        <p>
+          <input type="text" name="name" placeholder="Enter Your Name"/></label>   
+        </p>
+        <p>
+          <input type="email" name="email" placeholder="Enter Your Email" /></label>
+        </p>
+
+        <p>
+          <textarea name="message" placeholder="Message" ></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form> 
     </div>
+
   </main>
 
   <footer id="main-footer">

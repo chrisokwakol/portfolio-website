@@ -380,7 +380,55 @@ body#blog-bg:after {
   }
 }
 
+/* FORM */
+#contact-page-bg {
+  background: url('../img/rare2.jpg');
+}
+
+#contact-form-flex {
+  margin: auto;
+  font-weight: 600;
+}
+
+#contact-form input[type= "text"], input[type="email"] {
+  border-radius: 35px;
+  border: none;
+  width: 25%;
+  height: 30px;
+  padding: 10px 15px;
+}
+
+#contact-form textarea {
+  border-radius: 15px;
+  padding: 10px 15px;
+  height: 300px;
+  width: 50%;
+}
+
+#contact-form button {
+  padding: 0 15px;
+  border-radius: 25px;
+  border: none;
+  height: 30px;
+  width: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+#contact-form button:hover {
+  background: #FC0;
+}
+
+/* FORM MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  #contact-form input[type= "text"], input[type="email"] {
+    width: 50%;
+  }
+}
+
 /* BLOG PAGE MEDIA QUERIES */
+
 @media screen and (max-width: 625px) {
   #blog-cta h1 {
     font-family: Poppins;
@@ -423,6 +471,10 @@ body#blog-bg:after {
   #mce-EMAIL {
     margin-bottom: 15px !important;
     width: 80% !important;
+  }
+
+  #contact-form input[type= "text"], input[type="email"], #contact-form textarea {
+    width: 85%;
   }
 }
 
