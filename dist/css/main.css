@@ -419,6 +419,39 @@ body#blog-bg:after {
   background: #FC0;
 }
 
+/* SKILLS BAR */
+.bio {
+  font-size: 1em !important;
+  margin-bottom: 10px;
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 35px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  /* padding-top: 10px; Add top padding */
+  /* padding-bottom: 10px; Add bottom padding */
+  color: white; /* White text color */
+  border-radius: 35px;
+  padding: .03em 1em;
+  font-size: .9em;
+}
+
+.html {width: 90%; background-color: #2196F3}
+.css {width: 90%; background-color: #2196F3}
+.js {width: 80%; background-color: #2196F3}
+.php {width: 55%; background-color: #2196F3}
+.mongodb {width: 85%; background-color: #2196F3}
+.mysql {width: 85%; background-color: #2196F3}
+.ps {width: 65%; background-color: #2196F3}
+.seo {width: 70%; background-color: #2196F3}
+
+
 /* FORM MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
