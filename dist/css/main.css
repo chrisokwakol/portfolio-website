@@ -1,3 +1,7 @@
+form {
+  outline: none;
+}
+
 .menu-btn {
   position: absolute;
   z-index: 3;
