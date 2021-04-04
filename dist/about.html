@@ -10,8 +10,8 @@
   <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/main.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164906887-1"></script>
-  <script async>
+  <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-164906887-1"></script>
+  <script defer>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -76,7 +76,7 @@
       BIO
     </h2>
     <div class="about-info">
-      <img src="img/image.png" alt="website developer" class="bio-image">
+      <img loading="lazy" src="img/image.png" alt="website developer" class="bio-image">
 
       <div class="bio">
         <h3 class="text-secondary">Who's this guy?</h3>
@@ -151,7 +151,7 @@
     Copyright &copy; <script>document.write(new Date().getFullYear()) </script>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script async src="js/main.js"></script>
 </body>
 
 </html>
