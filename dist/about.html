@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/main.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164906887-1"></script>
-  <script>
+  <script async>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -21,7 +21,7 @@
 
   <title>About Me</title>
 
-  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/443f2ca4a0094c46366258bd7/7ff5600d50525b273eb06c498.js");
+  <script async id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/443f2ca4a0094c46366258bd7/7ff5600d50525b273eb06c498.js");
   </script>
 </head>
 
@@ -148,7 +148,7 @@
   </main>
 
   <footer id="main-footer">
-    Copyright &copy; <script>const date = new Date(); const year = date.getFullYear(); document.write(year)</script>
+    Copyright &copy; <script>document.write(new Date().getFullYear()) </script>
   </footer>
 
   <script src="js/main.js"></script>
